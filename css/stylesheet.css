@@ -73,6 +73,10 @@ svg.social {
     margin: 2px 7px 4px 0;
 }
 
+a h1 {
+
+}
+
 a.button {
     border-radius: 10px;
     background-color: rgb(210, 221, 224);
@@ -95,9 +99,21 @@ a.button:hover{
 a.button:active{
     color:rgb(209, 120, 120);
     }
-@media all and (max-width:30em){
-    a.button2{
-     display:block;
-     margin:0.4em auto;
-     }
+    
+a.dormant_button{
+    fill: rgb(200, 212, 214);
+    border-radius: 10px;
+    background-color: rgb(200, 212, 214);
+    display:inline-block;
+    padding:10px 15px;
+    margin:0.25em 0.3em 0.25em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:"Lato", Arial, sans-serif;
+    font-weight:700;
+    color:rgb(165, 179, 182);
+    text-align:center;
+    transition: all 0.15s;
+    }
 }
