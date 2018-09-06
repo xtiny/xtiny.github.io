@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(200, 212, 214);
+    background-color: rgb(217, 228, 230);
     color: rgb(83, 109, 131);
     fill: currentColor;
 }
 
 h1 {
     position: relative;
-    color: rgb(227, 233, 245);
+    color: rgb(242, 246, 253);
     font-family: "Dosis", Arial, sans-serif;
     font-weight: 500;
     font-size: 42pt;
@@ -73,37 +73,32 @@ svg.social {
     margin: 2px 7px 4px 0;
 }
 
-a h1 {
-
-}
-
 a.button {
-    border-radius: 10px;
-    background-color: rgb(210, 221, 224);
-    display:inline-block;
-    padding:10px 15px;
+    border-radius: 3px;
+    border: 2px solid rgb(83, 109, 131);;
+    display: inline-block;
+    padding:7px 10px;
     margin:0.25em 0.3em 0.25em 0;
     box-sizing: border-box;
     text-decoration:none;
     text-transform:uppercase;
     font-family:"Lato", Arial, sans-serif;
     font-weight:700;
-    color:rgb(83, 109, 131);
+    color: rgb(83, 109, 131);
     text-align:center;
     transition: all 0.15s;
     }
 a.button:hover{
-    background-color:rgb(200, 212, 214);
-        color:rgb(109, 121, 223);
+    color:rgb(109, 121, 223);
+    border-color: rgb(109, 121, 223);
     }
 a.button:active{
-    color:rgb(209, 120, 120);
+    color: rgb(209, 120, 120);
+    border-color: rgb(209, 120, 120);
     }
     
 a.dormant_button{
-    fill: rgb(200, 212, 214);
     border-radius: 10px;
-    background-color: rgb(200, 212, 214);
     display:inline-block;
     padding:10px 15px;
     margin:0.25em 0.3em 0.25em 0;
@@ -112,7 +107,7 @@ a.dormant_button{
     text-transform:uppercase;
     font-family:"Lato", Arial, sans-serif;
     font-weight:700;
-    color:rgb(165, 179, 182);
+    color:rgb(149, 170, 173);
     text-align:center;
     transition: all 0.15s;
     }
