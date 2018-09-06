@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Technic;
+    src: url('technic_regular-webfont.eot');
+    src: url('technic_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('technic_regular-webfont.woff2') format('woff2'),
+         url('technic_regular-webfont.woff') format('woff'),
+         url('technic_regular-webfont.ttf') format('truetype'),
+         url('technic_regular-webfont.svg#webfontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: Technic;
+    src: url('technic_bold_regular-webfont.eot');
+    src: url('technic_bold_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('technic_bold_regular-webfont.woff2') format('woff2'),
+         url('technic_bold_regular-webfont.woff') format('woff'),
+         url('technic_bold_regular-webfont.ttf') format('truetype'),
+         url('technic_bold_regular-webfont.svg#webfontregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(226,233,236);
+      }
+
+h1 {
+    font-family: Technic, "Franklin Gothic Medium", Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+    
+span .bleu {
+    color: rgb(156,201,250);
+      }
+
+span .vert {
+    color: rgb(155,224,188);
+      }
+
+span .saumon {
+    color: rgb(241,157,157);
+      }
