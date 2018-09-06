@@ -59,7 +59,7 @@ h2 {
 p {
     font-family: "Lato", Arial, sans-serif;
     font-weight:300;
-    font-size:18pt;
+    font-size:16pt;
     color: rgb(83, 109, 131);
     text-align:left;
 }
@@ -78,7 +78,7 @@ a.button {
     background-color: rgb(210, 221, 224);
     display:inline-block;
     padding:10px 15px;
-    margin:0 0.3em 0.3em 0;
+    margin:0.25em 0.3em 0.25em 0;
     box-sizing: border-box;
     text-decoration:none;
     text-transform:uppercase;
@@ -90,7 +90,7 @@ a.button {
     }
 a.button:hover{
     background-color:rgb(200, 212, 214);
-        color:rgb(156,165,250);
+        color:rgb(109, 121, 223);
     }
 a.button:active{
     color:rgb(209, 120, 120);
